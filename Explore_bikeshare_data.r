@@ -78,11 +78,12 @@ by(ny$Trip.Duration,ny$User.Type, na.rm=TRUE, sum)
 
 # Your solution code goes here
 #Checking  what are the 3 most common start.stations in Washington and indexing them
+# Refectoring: checking what are the 4 most common stations in Washington and indexing them
 wss<-as.data.frame(table(wash$Start.Station), header=FALSE)
 names(wss) <- c("Start.Station","number.of.users")
 wss$rank <- rank(-wss$number.of.users,ties.method="min")
 wss <- wss[order(wss$rank,decreasing = F),]
-wss<-head(wss,3)
+wss<-head(wss,4)
 wss
 
 #Checking what are the 3 most common start.stations in New York and indexing them
