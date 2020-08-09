@@ -61,8 +61,7 @@ df_base+ geom_bar(stat="identity")+
 xlab('City')+
 ylab('Total Travel Time')+
 ggtitle('Comparison of the total travel time for the three cities')+
-scale_y_continuous(name="Total travel time", labels = scales::comma)
-
+scale_y_continuous(name="total trip duration ", labels = scales::comma)
 #As we see, Washington is the city where people spend the most time on the bikeshare
 
 #Summary statistics about trip duration according to user type for Chicago
