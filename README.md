@@ -3,6 +3,7 @@ Include the date you created this project and README file.
 
 ### Project Title
 Replace the Project Title
+Explore_bikeshare becomes R_project
 
 ### Description
 Describe what your project is about and what it does
