@@ -8,6 +8,7 @@ The title Explore_bikeshare becomes R_project
 
 ### Description
 Describe what your project is about and what it does
+The project was about investigating data about users of bikeshare in Washington, Chicago, and New York city. We had to use R software and especially functions and loops. We also had to produce 3visualizations using ggplot2.
 
 ### Files used
 Include the files used
